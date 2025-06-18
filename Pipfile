@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+faiss-cpu = "*"
+google-generativeai = "*"
+pypdf2 = "*"
+python-dotenv = "*"
+streamlit = "*"
+langchain = "*"
+langchain-community = "*"
+langchain-groq = "*"
+pypdf = "*"
+sentence-transformers = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
